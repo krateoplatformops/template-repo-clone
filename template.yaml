@@ -22,6 +22,8 @@ spec:
           description: deployment description
           required: false
           key: description
+          readOnly: true
+          default: Sample
         - title: namespace
           visible: false
           default: krateo-system

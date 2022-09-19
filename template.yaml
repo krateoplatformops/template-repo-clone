@@ -5,7 +5,7 @@ metadata:
 spec:
   owner: mauro.sala@kiratech.it
   title: Repo Clone
-  description:
+  description: repo clone sample demo
   icon: fa-solid fa-clone
   tags:
     - repo

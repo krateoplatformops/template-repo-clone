@@ -22,22 +22,22 @@ spec:
           description: deployment description
           required: false
           key: description
-          readOnly: true
-          default: Sample
         - title: namespace
           hidden: true
           default: krateo-system
           key: namespace
     - title: Repository settings
       properties:
-        - title: Repo Name
-          description: Repo Name
-          required: true
-          key: repositoryName
         - title: Organization Name
           description: Organization Name
           required: true
           key: organizationName
+        - title: Repo Name
+          description: Repo Name
+          required: true
+          default: krateoplatformops
+          readOnly: true
+          key: repositoryName
         - title: Provider
           description: Provider
           required: true

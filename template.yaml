@@ -43,7 +43,7 @@ spec:
           required: true
           key: provider
           type: select
-          default: github
+          default: github.com
           options:
             - title: github.com
               value: github.com

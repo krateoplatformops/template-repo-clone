@@ -2,7 +2,7 @@
 apiVersion: templates.krateo.io/v1alpha1
 kind: RepoClone
 metadata:
-  name: <% title %>-repo-clone
+  name: <% name %>-repo-clone
   labels:
     deploymentId: <% deploymentId %>
 spec:

@@ -38,10 +38,10 @@ spec:
           required: true
           description: Repo Name
           key: repositoryName
-        - title: Provider
-          description: Provider
+        - title: Endpoint name
+          description: Endpoint name
           required: true
-          key: provider
+          key: endpoint
           type: select
           default: github.com
           options:

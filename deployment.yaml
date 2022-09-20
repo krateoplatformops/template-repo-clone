@@ -10,6 +10,10 @@ spec:
   title: Aws stack
   description:
   icon: fa-solid fa-clover
+  links:
+    - url: https://github.com/<% organizationName %>/<% repositoryName %>
+      title: <% organizationName %>/<% repositoryName %>
+      icon: "fa-brands fa-git"
   tags:
     - repo
     - clone

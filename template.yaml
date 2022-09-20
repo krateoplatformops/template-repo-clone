@@ -41,7 +41,7 @@ spec:
         - title: Endpoint name
           description: Endpoint name
           required: true
-          key: endpoint
+          key: endpointName
           type: select
           default: github.com
           options:

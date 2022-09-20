@@ -7,8 +7,8 @@ metadata:
     deploymentId: <% deploymentId %>
 spec:
   owner: mauro
-  title: Aws stack
-  description:
+  title: <% name %>
+  description: <% description %>
   icon: fa-solid fa-clover
   links:
     - url: https://github.com/<% organizationName %>/<% repositoryName %>

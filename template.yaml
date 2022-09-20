@@ -45,5 +45,5 @@ spec:
           type: select
           default: github
           options:
-            - title: Github
-              value: github
+            - title: github.com
+              value: github.com

@@ -30,13 +30,13 @@ spec:
       properties:
         - title: Organization Name
           description: Organization Name
+          default: krateoplatformops
           required: true
+          readOnly: true
           key: organizationName
         - title: Repo Name
-          description: Repo Name
           required: true
-          default: krateoplatformops
-          readOnly: true
+          description: Repo Name
           key: repositoryName
         - title: Provider
           description: Provider
